@@ -48,9 +48,7 @@ JVM은 운영체제에 상관없이 JVM만 설치되어 있다면 어디든 동�
 
 JVM은 Java Virtual Machine의 약자로 자바 애플리케이션을 클래스 로더를 통해 읽어들이고 자바 API와 함께 실행하는 프로그램이다. Virtual Machine이라는 이름처럼 프로그램을 실행하기 위한 소프트웨어다. 
 
-![[https://www.elfanmauludi.id/2019/03/fungsi-java-virtual-machine-atau-jvm.html](https://www.elfanmauludi.id/2019/03/fungsi-java-virtual-machine-atau-jvm.html)](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/da60ca33-7f8b-44eb-803a-73fe2255aa7a/Untitled.png)
-
-[https://www.elfanmauludi.id/2019/03/fungsi-java-virtual-machine-atau-jvm.html](https://www.elfanmauludi.id/2019/03/fungsi-java-virtual-machine-atau-jvm.html)
+<img src="img/jvm.png">
 
 1. **클래스 로더 시스템 (Class Loader)**
     
@@ -79,7 +77,7 @@ JVM은 Java Virtual Machine의 약자로 자바 애플리케이션을 클래스 
     
     런타임 데이터 영역은 운영체제에서 실행되며 JVM이 할당받는 메모리 영역으로써 총 6개의 영역으로 나눠진다. 이 중 PC 레지스터, JVM 스택, 네이티브 메서드 스택은 스레드 갯수와 비례하여 생성되며, 나머지는 모든 스레드에 공유된다.
     
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/815fabc3-0570-400e-a2e9-68aada039b01/Untitled.png)
+    <img src="img/runtime.png">
     
     1. **PC(Program Counter) Register**
         
@@ -111,9 +109,6 @@ JVM은 Java Virtual Machine의 약자로 자바 애플리케이션을 클래스 
 ### JDK와 JRE의 차이
 
 <img src="img/jdk-jre.png">
-![getKT.com](1%E1%84%8C%E1%85%AE%E1%84%8E%E1%85%A1%20%E1%84%80%E1%85%AA%E1%84%8C%E1%85%A6%206463b/Untitled%207.png)
-
-getKT.com
 
 JDK는 Java Development Kit의 약자로 자바를 개발하기 위한 통합 환경을 의미하며, JRE는 Java Runtime Environment의 약자로 자바의 실행환경을 의미한다. JRE는 Java API와 JVM으로 구성되어 있다. 
 
