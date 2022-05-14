@@ -1,4 +1,4 @@
-package javastudy.week3;
+package week3;
 
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;

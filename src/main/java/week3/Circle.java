@@ -1,4 +1,4 @@
-package javastudy.week3;
+package week3;
 
 
 
