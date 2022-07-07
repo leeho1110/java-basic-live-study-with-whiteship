@@ -30,10 +30,10 @@ public class SuperKeywordTest {
     @Test
     public void test_superKeyword(){
         // given
-        Leeho human = new Leeho();
+        Leeho sut = new Leeho();
 
         // when
-        human.say();
+        sut.say();
 
         // then
         assertThat("Hi! I'm male").isEqualTo(outputStreamCaptor.toString().trim());
@@ -43,10 +43,10 @@ public class SuperKeywordTest {
     @Test
     public void test_when_subclass_is_loaded_superclass_constructor_is_loaded_first(){
         // given
-        Leeho human = new Leeho();
+        Leeho sut = new Leeho();
 
         // when
-        human.say();
+        sut.say();
 
         // then
         assertThat("Male Constructor\nHi! I'm male").isEqualTo(outputStreamCaptor.toString().trim());

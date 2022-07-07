@@ -9,7 +9,7 @@ public class Male extends Human {
     }
 
     @Override
-    void say(){
+    public void say(){
         System.out.println("Hi! I'm male");
     }
 }
